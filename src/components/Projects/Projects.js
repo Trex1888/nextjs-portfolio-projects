@@ -20,9 +20,38 @@ import { projects } from "../../constants/constants";
 
 function Projects() {
   return (
-    <div>
-      <h3>projects</h3>
-    </div>
+    <Section nopadding id="projects">
+      <SectionDivider />
+      <SectionTitle main>Projects</SectionTitle>
+      <GridContainer>
+        {projects.map((yem, i) => (
+          <BlogCard key={i}>
+            <Img src={yem.image} />
+            <TitleContent>
+              <HeaderThree>{yem.title}</HeaderThree>
+              <Hr />
+            </TitleContent>
+            <CardInfo className="card-info">{yem.description}</CardInfo>
+            <div>
+              <TitleContent>Stack</TitleContent>
+              <TagList>
+                {yem.tags.map((tag, i) => {
+                  return <Tag key={i}>{tag}</Tag>;
+                })}
+              </TagList>
+            </div>
+            <UtilityList>
+              <ExternalLinks href={yem.visit} target="_blank" rel="noreferrer">
+                GitHub
+              </ExternalLinks>
+              <ExternalLinks href={yem.source} target="_blank" rel="noreferrer">
+                Webpage
+              </ExternalLinks>
+            </UtilityList>
+          </BlogCard>
+        ))}
+      </GridContainer>
+    </Section>
   );
 }
 

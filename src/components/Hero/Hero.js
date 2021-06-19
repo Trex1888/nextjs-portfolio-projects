@@ -6,7 +6,7 @@ import {
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
-function Hero({ props }) {
+function Hero() {
   return (
     <Section>
       <LeftSection>
@@ -15,10 +15,13 @@ function Hero({ props }) {
           Nextjs Portfolio
         </SectionTitle>
         <SectionText>
-          Coding this project will continue to improve my React skill set and
-          Nextjs is amazing! They say it takes 10,000 of practice before you can
-          be considered an expert at something... So LETS CODE!
+          React with Nextjs and Tailwind CSS take projects to the next level.
+          They say it takes 10,000 of practice before you can be considered an
+          expert at something... So LETS CODE!
         </SectionText>
+        <Button onClick={() => (window.location = "https://google.com")}>
+          Learn More
+        </Button>
       </LeftSection>
     </Section>
   );
