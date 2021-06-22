@@ -42,10 +42,10 @@ function Projects() {
             </div>
             <UtilityList>
               <ExternalLinks href={yem.visit} target="_blank" rel="noreferrer">
-                GitHub
+                Web Page
               </ExternalLinks>
               <ExternalLinks href={yem.source} target="_blank" rel="noreferrer">
-                Webpage
+                GitHub
               </ExternalLinks>
             </UtilityList>
           </BlogCard>

@@ -40,7 +40,7 @@ function Header() {
           </Link>
         </li>
         <li>
-          <Link href="#tech">
+          <Link href="#skills">
             <NavLink>Skills</NavLink>
           </Link>
         </li>
@@ -50,8 +50,8 @@ function Header() {
           </Link>
         </li>
         <li>
-          <Link href="#about">
-            <NavLink>Yem</NavLink>
+          <Link href="#education">
+            <NavLink>Education</NavLink>
           </Link>
         </li>
       </Div2>

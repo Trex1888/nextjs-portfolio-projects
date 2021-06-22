@@ -1,10 +1,4 @@
-import {
-  DiJavascript,
-  DiHtml5,
-  DiReact,
-  DiMongodb,
-  DiGit,
-} from "react-icons/di";
+import { DiMongodb, DiReact, DiJava } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -21,37 +15,25 @@ import {
 
 function Technologies() {
   return (
-    <Section id="tech">
-      {/* <br /> */}
+    <Section id="skills">
       <SectionDivider divider />
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
-        React and Nextjs are top-notch web development services.
+        React and Nextjs are developed and maintained by some of the biggest
+        tech companies on the planet. Adding Nextjs to React makes your projects
+        more efficient with server-side rendering.
       </SectionText>
       <List>
         <ListItem>
           <picture>
-            <DiHtml5 size="3em" />
             <DiReact size="3em" />
           </picture>
 
           <ListContainer>
             <ListTitle>Front-End</ListTitle>
             <ListParagraph>
-              Experience with <br />
-              React & Nextjs
-            </ListParagraph>
-          </ListContainer>
-        </ListItem>
-        <ListItem>
-          <picture>
-            <DiJavascript size="3em" />
-          </picture>
-          <ListContainer>
-            <ListTitle>Front-End</ListTitle>
-            <ListParagraph>
-              Experience with <br />
-              React & Nextjs
+              HTML CSS JavaScript <br />
+              React Redux Nextjs
             </ListParagraph>
           </ListContainer>
         </ListItem>
@@ -60,14 +42,27 @@ function Technologies() {
             <DiMongodb size="3em" />
           </picture>
           <ListContainer>
-            <ListTitle>Front-End</ListTitle>
+            <ListTitle>Back-End</ListTitle>
             <ListParagraph>
-              Experience with <br />
-              React & Nextjs
+              MongoDB Express <br />
+              React Nodejs SQL
+            </ListParagraph>
+          </ListContainer>
+        </ListItem>
+        <ListItem>
+          <picture>
+            <DiJava size="3em" />
+          </picture>
+          <ListContainer>
+            <ListTitle>OOP & Hosting</ListTitle>
+            <ListParagraph>
+              Java C# Android <br />
+              GitHub Firebase AWS
             </ListParagraph>
           </ListContainer>
         </ListItem>
       </List>
+      <SectionDivider divider />
     </Section>
   );
 }

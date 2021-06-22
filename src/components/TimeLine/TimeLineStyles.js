@@ -31,6 +31,7 @@ export const CarouselContainer = styled.ul`
     margin-bottom: 8px;
   }
 `;
+
 export const CarouselMobileScrollNode = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
@@ -91,6 +92,7 @@ export const CarouselItemTitle = styled.h4`
     line-height: 24px;
   }
 `;
+
 export const CarouselItemImg = styled.svg`
   margin-left: 21px;
   -webkit-mask-image: linear-gradient(
@@ -119,15 +121,16 @@ export const CarouselItemText = styled.p`
     line-height: 18px;
     padding-right: 32px;
   }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 10px;
     line-height: 16px;
     padding-right: 0;
   }
 `;
+
 export const CarouselButtons = styled.div`
   width: 288px;
-
   display: none;
   visibility: hidden;
 

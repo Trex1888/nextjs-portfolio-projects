@@ -66,8 +66,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        React is the best Javascript library out there, but adding Nextjs takes
-        the project to the next level with server-side rendering.
+        This is has been a humbling almost five year journey. I have learned so
+        much about coding and life through this process, and realized creating
+        beautiful websites is what I love to do.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

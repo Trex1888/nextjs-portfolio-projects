@@ -15,11 +15,12 @@ function Hero() {
           Nextjs Portfolio
         </SectionTitle>
         <SectionText>
-          React with Nextjs and Tailwind CSS take projects to the next level.
-          They say it takes 10,000 of practice before you can be considered an
-          expert at something... So LETS CODE!
+          React with Nextjs take your projects to another level. They say it
+          takes 10,000 of practice before you can be considered an expert at
+          something... So LETS CODE!
         </SectionText>
-        <Button onClick={() => (window.location = "https://google.com")}>
+
+        <Button onClick={() => window.open("https://nextjs.org")}>
           Learn More
         </Button>
       </LeftSection>
