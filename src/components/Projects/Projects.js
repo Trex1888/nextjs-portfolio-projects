@@ -33,7 +33,7 @@ function Projects() {
             </TitleContent>
             <CardInfo className="card-info">{yem.description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
+              <Hr />
               <TagList>
                 {yem.tags.map((tag, i) => {
                   return <Tag key={i}>{tag}</Tag>;

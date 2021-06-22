@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Facebook",
     description:
-      "Facebook app clone built with Nextjs allowing server-side rendering. Login with Facebook or Google.",
+      "Facebook app clone built with Nextjs allowing server-side rendering. Login with Facebook and leave a post.",
     image: "/images/fb5.PNG",
     tags: ["React", "Nextjs", "JavaScript", "Tailwind CSS"],
     source: "https://github.com/Trex1888/nextjs-facebook-clone",
@@ -86,7 +86,7 @@ export const TimeLineData = [
   { year: 2018, text: "Learned HTML CSS JavaScript Java C#" },
   {
     year: 2019,
-    text: "Earned Associates Degree in Business Information Systems",
+    text: "Degree in Business Information Systems",
   },
   { year: 2020, text: "Code over 60 React and Nextjs projects" },
   { year: 2021, text: "Began my new career as a React Developer" },

@@ -19,9 +19,9 @@ function Technologies() {
       <SectionDivider divider />
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
-        React and Nextjs are developed and maintained by some of the biggest
-        tech companies on the planet. Adding Nextjs to React makes your projects
-        more efficient with server-side rendering.
+        React was developed and maintained by Facebook. React with Nextjs takes
+        your projects to another level. Adding Nextjs allows us to have more
+        efficiency with server-side rendering.
       </SectionText>
       <List>
         <ListItem>

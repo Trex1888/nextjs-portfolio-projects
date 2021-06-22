@@ -102,6 +102,7 @@ export const SectionDivider = styled.div`
     height: 2px;
   }
 `;
+
 export const SectionSubText = styled.p`
   max-width: 800px;
   font-weight: 300;
@@ -120,6 +121,7 @@ export const SectionSubText = styled.p`
     line-height: 22px;
   }
 `;
+
 export const SecondaryBtn = styled.button`
   color: #fff;
   background: none;
@@ -277,6 +279,7 @@ export const LinkContainer = styled.div`
   @media ${(props) => props.theme.breakpoints.md} {
     margin-left: ${({ large }) => (large ? "16px" : "8px")};
   }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     margin-left: ${({ large }) => (large ? "0" : "8px")};
   }
