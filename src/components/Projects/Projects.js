@@ -26,7 +26,7 @@ function Projects() {
       <GridContainer>
         {projects.map((yem, i) => (
           <BlogCard key={i}>
-            <Img src={yem.image} />
+            <Img src={yem.image} alt="img" />
             <TitleContent>
               <HeaderThree>{yem.title}</HeaderThree>
               <Hr />
