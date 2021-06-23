@@ -17,11 +17,11 @@ function Technologies() {
   return (
     <Section id="skills">
       <SectionDivider divider />
+
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
-        React was developed and maintained by Facebook. React with Nextjs takes
-        your projects to another level. Adding Nextjs allows us to have more
-        efficiency with server-side rendering.
+        Nextjs takes your projects to another level. Nextjs enhances React with
+        server-side rendering, route pre-fetching, and more.
       </SectionText>
       <List>
         <ListItem>
@@ -62,7 +62,7 @@ function Technologies() {
           </ListContainer>
         </ListItem>
       </List>
-      <SectionDivider divider />
+      <SectionDivider />
     </Section>
   );
 }

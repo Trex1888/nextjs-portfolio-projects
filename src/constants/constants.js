@@ -4,7 +4,7 @@ export const projects = [
     description:
       "Amazon clone with built with Tailwind CSS. This project looks amazing on mobile or web browser.",
     image: "/images/amazon1.PNG",
-    tags: ["React", "Nextjs", "JavaScript", "Tailwind CSS"],
+    tags: ["React", "Nextjs", "JavaScript", "Tailwind"],
     source: "https://github.com/Trex1888/nextjs-amazon-clone",
     visit: "https://nextjs-amazon55.vercel.app",
     id: 0,
@@ -14,7 +14,7 @@ export const projects = [
     description:
       "Facebook app clone built with Nextjs allowing server-side rendering. Login with Facebook and leave a post.",
     image: "/images/fb5.PNG",
-    tags: ["React", "Nextjs", "JavaScript", "Tailwind CSS"],
+    tags: ["React", "Nextjs", "JavaScript", "Tailwind"],
     source: "https://github.com/Trex1888/nextjs-facebook-clone",
     visit: "https://nextjs-facebook-clone.vercel.app",
     id: 1,
@@ -22,9 +22,9 @@ export const projects = [
   {
     title: "Google",
     description:
-      "Google app with real search functions. Looks and works just like the real thing. 100% responsive design.",
+      "Real working Google clone app with search function. Responsive design looks amazing with Tailwind.",
     image: "/images/google5.PNG",
-    tags: ["React", "Nextjs", "JavaScript", "Tailwind CSS"],
+    tags: ["React", "Nextjs", "JavaScript", "Tailwind"],
     source: "https://github.com/Trex1888/nextjs-google-tailwind",
     visit: "https://nextjs-google-clone-beta.vercel.app",
     id: 2,
@@ -34,7 +34,7 @@ export const projects = [
     description:
       "Hulu clone built with Tailwind CSS. Uses IMDB API to fetch data with server-side rendering.",
     image: "/images/hulu1.PNG",
-    tags: ["React", "Nextjs", "JavaScript", "Tailwind CSS"],
+    tags: ["React", "Nextjs", "JavaScript", "Tailwind"],
     source: "https://github.com/Trex1888/nextjs-hulu-tailwind",
     visit: "https://nextjs-hulu-app-trex1888.vercel.app",
     id: 3,
@@ -44,7 +44,7 @@ export const projects = [
     description:
       "Netflix app homepage clone built with Tailwind CSS. Uses IMDB API to fetch data. Login with Google.",
     image: "/images/netflix5.PNG",
-    tags: ["React", "Nextjs", "JavaScript", "Tailwind CSS"],
+    tags: ["React", "Nextjs", "JavaScript", "Tailwind"],
     source: "https://github.com/Trex1888/nextjs-netflix-tailwind",
     visit: "https://nextjs-netflix-tailwind.vercel.app",
     id: 4,
@@ -54,7 +54,7 @@ export const projects = [
     description:
       "WhatsApp clone built with styled components. Login to create a room or leave a new message.",
     image: "/images/whats.PNG",
-    tags: ["React", "Nextjs", "JavaScript", "Styled Components"],
+    tags: ["React", "Nextjs", "JavaScript", "Firebase"],
     source: "https://github.com/Trex1888/nextjs-whatsapp-clone",
     visit: "https://nextjs-whatsapp-clone-ivory.vercel.app",
     id: 5,
